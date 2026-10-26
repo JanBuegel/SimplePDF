@@ -1,0 +1,5 @@
+/target
+/pdfium
+/dist
+/agent.local.md
+*.companionconfig

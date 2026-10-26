@@ -1,0 +1,4 @@
+# Cross-build for Windows from Linux: `cargo build --release --target x86_64-pc-windows-gnu`.
+# Needs the MinGW cross-linker (Fedora: mingw64-gcc, Debian/Ubuntu: gcc-mingw-w64-x86-64).
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
